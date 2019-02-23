@@ -1,6 +1,10 @@
-import React from "react";
-import Layout from "../components/layout";
+import React from 'react';
+import Layout from '../components/layout';
 
-export default function store() {
-  return <Layout />;
+export default function Store() {
+  return (
+    <Layout>
+      <div>something</div>
+    </Layout>
+  );
 }

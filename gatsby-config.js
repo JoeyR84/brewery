@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Joey's Brewery`,
-    description: `This is a fake brewery website template.`,
+    description: `This is a mock brewery website template.`,
     author: `@gatsbyjs`
   },
   plugins: [

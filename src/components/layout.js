@@ -1,10 +1,10 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { StaticQuery, graphql } from "gatsby";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { StaticQuery, graphql } from 'gatsby';
 
-import Header from "./header";
+import Header from './header';
 // import { Global, css } from "@emotion/core";
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -25,7 +25,7 @@ const Layout = ({ children }) => (
           <footer>
             © {new Date().getFullYear()}, I am
             {` `}
-            <a href="https://www.github.com/joeyr84">Joey</a>
+            <a href='https://www.github.com/joeyr84'>Joey</a>
           </footer>
         </div>
       </Container>
@@ -38,9 +38,7 @@ Layout.propTypes = {
 };
 
 const Container = styled.div`
-  width: 100vw;
-  padding: 0rem;
-  margin: none;
+  margin: 0px;
 `;
 
 export default Layout;
